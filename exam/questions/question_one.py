@@ -156,17 +156,14 @@ def generate_fuzzer_value(
 
 
 def reverse_string_encrypt(plaintext: str) -> str:
-    """Encrypt the provided plaintext by reversing the order of its characters."""
     return ""
 
 
 def reverse_string_decrypt(ciphertext: str) -> str:
-    """Decrypt the provided ciphertext by reversing the order of its characters."""
     return ""
 
 
 def reverse_string_encrypt_dictionary(plaintexts: list) -> dict:
-    """Encrypt a list of plaintexts by reversing and returning a dictionary of data."""
     return {0: ""}
 
 # }}}
