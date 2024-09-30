@@ -170,7 +170,7 @@ setup: |
   command: poetry run execexam . tests/ --mark "question_three_part_a" --debug --no-fancy --report status --report debug
 
 - description: Run checks for Question 3 Part (b) with 'execexam' command and confirm correct exit code
-  command: poetry run execexam . tests/ --mark "question_three_part_a" --no-fancy --report status --report setup --report debug
+  command: poetry run execexam . tests/ --mark "question_three_part_b" --no-fancy --report status --report setup --report debug
 
 - description: Run checks for Question 3 Part (c) with 'execexam' command and confirm correct exit code
   command: poetry run execexam . tests/ --mark "question_three_part_c" --no-fancy --report status --report setup --report debug
